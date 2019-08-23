@@ -3496,7 +3496,7 @@
 	        if (options.new_tab) { return; }
 
 	        setTimeout(function() {
-	            window$1.location = options.href;
+	            //window.location = options.href;
 	        }, 0);
 	    };
 

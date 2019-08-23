@@ -1297,7 +1297,7 @@ LinkTracker.prototype.after_track_handler = function (props, options) {
     }
 
     setTimeout(function () {
-        _utils.window.location = options.href;
+        //window.location = options.href;
     }, 0);
 };
 

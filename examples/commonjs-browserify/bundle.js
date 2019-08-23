@@ -3430,7 +3430,7 @@ LinkTracker.prototype.after_track_handler = function(props, options) {
     if (options.new_tab) { return; }
 
     setTimeout(function() {
-        window$1.location = options.href;
+        //window.location = options.href;
     }, 0);
 };
 
